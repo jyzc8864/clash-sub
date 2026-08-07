@@ -1,6 +1,10 @@
 name: Update Clash subscription
 
 on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - clash.yaml
   schedule:
     - cron: "3/5 * * * *"
   workflow_dispatch:
