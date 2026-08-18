@@ -5,8 +5,8 @@ log-level: info
 proxies:
   - name: "ZDOpen 浙江省杭州市 阿里云"
     type: http
-    server: "116.62.202.70"
-    port: 17900
+    server: "47.111.175.196"
+    port: 7897
     udp: false
 proxy-groups:
   - name: PROXY
